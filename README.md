@@ -2,6 +2,7 @@ What you have to do to get this to work. I'm assuming the finished.BED file are
 the Alu positions padded via `bedtools slop`.
 
 1) fix the ^M line endings issue. You can do this by search and replacing ^M with a proper linefeed.
+
 2) convert Maldarelli_IS.BED to a proper BED file (it needs at least three columns to be valid).
 
 ```bash
